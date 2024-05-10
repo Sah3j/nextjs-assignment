@@ -3,10 +3,10 @@
 For this Nextjs Assignment, I have developed a community event planner application called event-planner. Users can post future events they are planning to share with the community and explore community events they would like to attend. 
 
 ## Tech Stack
-Nextjs version: 14.2.3
-Next-auth version: 5.0.0-beta.3
-Mongodb version: 6.6.1
-Mongoose version: 8.3.4
+- Nextjs version: 14.2.3
+- Next-auth version: 5.0.0-beta.3
+- Mongodb version: 6.6.1
+- Mongoose version: 8.3.4
 
 ## Setup Instructions
 Please ensure you have the node version v20.9.0 or higher and npm version 10.1.0 or higher installed.
