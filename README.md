@@ -11,22 +11,22 @@ For this Nextjs Assignment, I have developed a community event planner applicati
 ## Setup Instructions
 Please ensure you have the node version v20.9.0 or higher and npm version 10.1.0 or higher installed.
 
-Navigate to the directory where you would like to clone the app and run the following command:
+- Navigate to the directory where you would like to clone the app and run the following command:
 ```bash
 git clone https://github.com/Sah3j/nextjs-assignment.git
 ```
 
-Navigate to the project directory with the following command:
+- Navigate to the project directory with the following command:
 ```bash
 cd nextjs-assignment
 ```
 
-Run the following command to install all dependencies: 
+- Run the following command to install all dependencies: 
 ```bash
 npm install
 ```
 
-Next create a .env file in the root folder of the project and paste the following environment variables:
+- Next create a .env file in the root folder of the project and paste the following environment variables:
 ```bash
 MONGO_URI = XXX
 AUTH_SECRET = XXX
@@ -35,9 +35,9 @@ GOOGLE_CLIENT_ID= XXX
 GOOGLE_CLIENT_SECRET= XXX
 ```
 
-Run the following command to start the application on your machine:
+- Run the following command to start the application on your machine:
 ```bash
 Npm run dev
 ```
 
-In your browser, navigate to “http://localhost:3000” to start using the application.
+- In your browser, navigate to “http://localhost:3000” to start using the application.
