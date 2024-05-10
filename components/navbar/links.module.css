@@ -1,0 +1,70 @@
+.container {
+  margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.menuButton, 
+.mobileLinks {
+  display: none;
+}
+
+.link {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.active {
+  background-color: var(--text);
+  color: var(--bg)
+}
+
+.logout {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ef4444;
+  text-align: center;
+}
+
+@media (max-width: 786px) {
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .mobileLinks {
+    position: absolute;
+    z-index: 99;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

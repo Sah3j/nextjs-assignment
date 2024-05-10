@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.rightCol {
+  flex: 1;
+}
+
+.leftCol {
+  flex: 1;
+}
+
+@media (max-width: 786px) {
+  .container {
+    flex-direction: column;
+  }
+}
