@@ -37,7 +37,7 @@ GOOGLE_CLIENT_SECRET= XXX
 
 - Run the following command to start the application on your machine:
 ```bash
-Npm run dev
+npm run dev
 ```
 
 - In your browser, navigate to “http://localhost:3000” to start using the application.
